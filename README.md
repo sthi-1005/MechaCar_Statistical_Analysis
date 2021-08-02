@@ -13,7 +13,7 @@ The client has provided two automotive datasets for exploraotry insights. The da
 |AWD|-|
 |mpg|-|
 
-The following analysis will be performed:
+The following analysis will be performed using R Studio:
 - Multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
 - Provide statistics on (PSI) of the suspension coils from manufacturing lots
 - T-test analysis to determine if the manufacturing lots are statistically different from the mean population
