@@ -63,5 +63,12 @@ The manufacturer specifies the coils have a nominal value of 1,500 PSI. Performi
 |Lot3|![image](https://user-images.githubusercontent.com/79720695/127796546-8a4d5a3a-4445-4ed0-905e-fef5c34d2459.png)|0.04|4% probability of hypothesis (true mean is equal to 1500 can be rejected)|
 
 ## Study Design: MechaCar vs Competition
-
-
+- Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers
+  - Before designing statistcal studies, a target audience should first be determined for the values of their existing clientelle, and the vision of their market MechaCar would like to expand towards.
+  - For example, if MechaCar's market focus is performance, statiscal analysis showing low variability/deviation in all key performance metrics would demonstrate MechaCar's superior quality control techniques.
+  - However, if MechaCar's market focus are budget-concious consumers, focus can instead be given to mileage (mpg) readings.
+  - Under these limited conditions, it is highly recommended for MechaCar to create tailored analysis that follow the following template:
+    - What metrics are critical (dependent variable) to MechaCar's customer base? (i.e. MPG, aesthetics, safety, horsepower, etc.)
+    - What are variables that could possibly influence these metrics? And/or is competitor data with these metrics readily available for comparison?
+    - What statistical tests to run? Recommended test methods include: T-test for comparison of values between MechaCar and its competitors; Multiple Linear Regression is recommended if the test is to determine what variables should be changed to acheive a desired outcome.
+    - Hypothesis Testing: create a null and alternative hypothesis for the critical (dependent variable).
