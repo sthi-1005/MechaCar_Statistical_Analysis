@@ -38,3 +38,15 @@ From the dataset, the following observations can be made:
   |ground_clearance|3.55|
   |AWD|-3.41|
  - Overall results of this linear model: the multi-variable linear regression model can be uysed to predict mpg of MechaCar prototypes. Although the results may not provide precise errors, the Multiuple R-squared value of 0.71, Adjusted R-squared value of 0.68, and p-value of 5.35e-11 is sufficiently high.
+
+## Summary Statistics on Suspension Coils
+|Total_Summary Dataframe|Lot_Summary Dataframe|
+|---|---|
+|![image](https://user-images.githubusercontent.com/79720695/127793049-1223d805-6c17-462d-8e7a-fef88dc898b8.png)|![image](https://user-images.githubusercontent.com/79720695/127793033-1123a07f-55a8-4fb0-b9fd-16ae13fc3432.png)|
+
+Variance of suspension coils must not exceed 100 PSI as per MechaCar's standards. As seen in the Lot_Summary dataframe:
+|Lot|Variance|Conclusion|
+|---|---|---|
+|Lot1|0.98|Pass|
+|Lot2|7.47|Pass|
+|Lot3|170.29|Fail|
