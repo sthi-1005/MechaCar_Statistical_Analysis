@@ -72,3 +72,10 @@ The manufacturer specifies the coils have a nominal value of 1,500 PSI. Performi
     - What are variables that could possibly influence these metrics? And/or is competitor data with these metrics readily available for comparison?
     - What statistical tests to run? Recommended test methods include: T-test for comparison of values between MechaCar and its competitors; Multiple Linear Regression is recommended if the test is to determine what variables should be changed to acheive a desired outcome.
     - Hypothesis Testing: create a null and alternative hypothesis for the critical (dependent variable).
+
+- Example:
+  - Metric to Test: Towing capacity vehicle
+  - Dependent Variables: Weight of vehicle, size of engine
+  - Null Hypothesis: the weight of the vehicle and size of engine do not have an effect on a vehicle's towing capacity
+  - Alternative Hypothesis: The towing capacity of a vehicle may fluctuate by X% for vehicles that weigh ###-#### kgs sized with ##-### L Engines
+  - Statistical testing method: Multiple linear regreasion testing
